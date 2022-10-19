@@ -36,12 +36,22 @@
       "Docker",
       "Kubernetes",
       "GitLab Pipelines",
-      "Jenkins"
+      "Jenkins",
+      "Openshift"
     ],
     "Source Control": [
-      "GIT",
+      "Git",
       "SVN",
       "IBM Rational ClearCase"
+    ],
+    "Non-technical": [
+      "Project management",
+      "Leadership"
+    ],
+    "Frameworks": [
+      "Apache Airflow",
+      "Apache Spark",
+      "ROS"
     ],
     "Languages":
             ["German",
