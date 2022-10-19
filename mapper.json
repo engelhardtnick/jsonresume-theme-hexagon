@@ -42,6 +42,11 @@
       "GIT",
       "SVN",
       "IBM Rational ClearCase"
-    ]
+    ],
+    "Languages":
+            ["German",
+            "English",
+            "French",
+            "Spanish"]
   }
 }
