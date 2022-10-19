@@ -188,6 +188,7 @@ h5,
 h6 {
 	margin: 0;
 	page-break-after: avoid;
+	font-size: 1.05rem;
 }
 
 h1 {
@@ -222,7 +223,7 @@ sup {
 }
 
 .dates {
-	font-size: .9rem;
+	font-size: 1.0rem;
 	margin-bottom: 5px;
 	--color-icon: none;
 	--icon-size: none;
@@ -238,8 +239,8 @@ sup {
 	align-items: center;
 	justify-content: center;
 	margin: 2rem auto 0.5rem;
-	width: 10rem;
-	height: 10rem;
+	width: 11rem;
+	height: 11rem;
 	position: relative;
 	--hex-size: none;
 	--color-hexagon: var(--color-primary);
@@ -325,7 +326,7 @@ sup {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2px;
-	font-size: .5rem;
+	font-size: .9rem;
 }
 
 .work .highlights>.stack {
