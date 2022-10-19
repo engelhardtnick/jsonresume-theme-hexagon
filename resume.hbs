@@ -74,15 +74,10 @@
         <li>
           <div class="hex-icon">
             <div class="hex hex-solid"></div>
-            <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-location-dot"></i>
           </div>
           <div>
-            <a target="_blank" href="{{url}}">
-              {{tiny url}}
-              <sup>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </sup>
-            </a>
+            {{location.address}}<br />{{location.postalCode}} {{location.city}}, {{location.countryCode}}
           </div>
         </li>
         <li>
