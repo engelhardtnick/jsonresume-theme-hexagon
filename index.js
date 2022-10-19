@@ -7,6 +7,9 @@ var Handlebars = require("handlebars");
 
 const Mapper = require('./mapper.json');
 
+marked.setOptions({
+breaks:true})
+
 Handlebars.registerHelper("md", (markdown = '') => {
 	const html = marked.parse(markdown);
 	return new Handlebars.SafeString(html);
