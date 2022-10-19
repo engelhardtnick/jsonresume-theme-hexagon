@@ -209,7 +209,7 @@
       <div class="institution">
         <div class="heading">
           <h4>
-            {{institution}}
+          {{studyType}} at {{institution}}
             <a href="{{url}}" target="_blank">{{tiny url}}</a>
           </h4>
 
@@ -218,8 +218,8 @@
             {{date startDate}}{{#if endDate}} - {{date endDate}}{{/if}}
           </div>
         </div>
-        {{!-- <div class="studyType">{{studyType}}</div> --}}
         <div class="area">{{area}}</div>
+        <div>Final grade: {{score}}</div>
       </div>
       {{/each}}
     </section>
