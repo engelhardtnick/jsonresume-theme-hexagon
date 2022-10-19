@@ -57,6 +57,11 @@ var resume = require('./resume.json');
 process.stdout.write(theme.render(resume));
 ```
 
+### Adding skills and skill groups
+All skills that are displayed on the left side of the resume must be registered in `./mapper.json`. Simply add your 
+additional skills to an existing group or add another group altogether.
+
+
 ## Contributing
 
 Install the project with:
