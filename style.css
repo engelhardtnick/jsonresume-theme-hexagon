@@ -253,11 +253,6 @@ sup {
 	text-transform: uppercase;
 }
 
-.name>span:first-of-type {
-	color: var(--color-primary);
-	font-weight: 300;
-}
-
 .title {
 	color: var(--color-primary);
 	font-size: 1.25rem;
