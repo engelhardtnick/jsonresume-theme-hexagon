@@ -10,13 +10,16 @@
       "Express.js",
       "REST"
     ],
-    "Languages": [
+    "Programming languages": [
       "JavaScript",
       "TypeScript",
       "Java",
-      "C/C++",
+      "C",
+      "C++",
       "PHP",
-      "Shell scripting (Bash)"
+      "Shell scripting (Bash)",
+      "Python",
+      "Scala"
     ],
     "Mobile Development": [
       "React Native"
