@@ -115,30 +115,28 @@
       {{/skills}}
     </section>
 
-    <section class="social">
+    <section class="languages">
       <div class="heading">
         <div class="hex-icon">
           <div class="hex hex-border"></div>
-          <i class="fa-solid fa-share-nodes"></i>
+          <i class="fa-solid fa-language"></i>
         </div>
-        <h3>CONNECT</h3>
+        <h3>LANGUAGES</h3>
         <hr />
       </div>
 
       <ul>
-        {{#each basics.profiles}}
-        <li>
-          <div class="hex-icon">
-            <div class="hex hex-solid"></div>
-            <i class="fa-brands fa-{{lowercase network}}"></i>
+        {{#each languages as | lang |}}
+        <div class="skill">
+          <h5>
+          {{language}}
+          </h5>
+          <div>
+          {{#levels level as | lvl |}}
+            <span class="skill-level {{#if this}}skill-level-active{{/if}}"></span>
+          {{/levels}}
           </div>
-          <a rel="noreferrer" target="_blank" href="{{url}}" title="{{network}}">
-            {{tiny url 2}}
-            <sup>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </sup>
-          </a>
-        </li>
+        </div>
         {{/each}}
       </ul>
       </div>
