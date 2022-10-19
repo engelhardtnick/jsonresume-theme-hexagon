@@ -317,6 +317,11 @@ sup {
 	margin: 8px 0 16px 0;
 }
 
+.work .summary ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
 .work .highlights {
 	display: flex;
 	flex-wrap: wrap;
