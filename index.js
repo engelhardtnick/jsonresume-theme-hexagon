@@ -4,6 +4,7 @@ var path = require('path');
 const moment = require('moment');
 const { marked } = require('marked');
 var Handlebars = require("handlebars");
+var helpers = require('handlebars-helpers')();
 
 const Mapper = require('./mapper.json');
 

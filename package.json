@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "handlebars": "^4.7.7",
+    "handlebars-helpers": "^0.10.0",
     "marked": "^4.1.0",
     "moment": "^2.29.4"
   },
