@@ -39,7 +39,7 @@
     </div>
 
     <div class="title">
-      {{label}}
+      {{md label}}
     </div>
 
     <section class="contacts">
@@ -155,7 +155,7 @@
       </div>
 
       {{#with basics}}
-      <summary>{{{summary}}}</summary>
+      <summary>{{md summary}}</summary>
       {{/with}}
     </section>
 
@@ -219,7 +219,10 @@
           </div>
         </div>
         <div class="area">{{area}}</div>
-        <div>Final grade: {{score}}</div>
+        {{#if score}}
+          <div>Final grade: {{score}}</div>
+        {{else}}
+        {{/if}}
       </div>
       {{/each}}
     </section>
