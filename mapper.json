@@ -17,23 +17,32 @@
       "C",
       "C++",
       "PHP",
-      "Shell scripting (Bash)",
+      "Bash",
       "Python",
       "Scala",
-      "SQL"
+      "SQL",
+      "MATLAB"
     ],
     "Mobile Development": [
       "React Native"
     ],
     "Databases": [
       "PostgreSQL",
+      "MapR-DB NoSQL",
       "mySQL",
       "SQL Server",
       "MongoDB",
       "ElasticSearch",
       "DSE Graph | Gremlin"
     ],
+    "Public cloud systems": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
     "DevOps": [
+      "Zuul",
+      "Ansible",
       "Docker",
       "Kubernetes",
       "GitLab Pipelines",
@@ -47,17 +56,27 @@
     ],
     "Non-technical": [
       "Project management",
-      "Leadership"
+      "Leadership",
+      "Analytical skills",
+      "Presentation"
+    ],
+    "Mathematical skills": [
+      "Modeling & Simulation",
+      "Uncertainty Quantification",
+      "Risk Analysis"
     ],
     "Frameworks": [
       "Apache Airflow",
       "Apache Spark",
-      "ROS"
+      "SonarQube",
+      "ROS",
+      "Django"
     ],
-    "Languages":
-            ["German",
-            "English",
-            "French",
-            "Spanish"]
+    "Languages": [
+      "German",
+      "English",
+      "French",
+      "Spanish"
+    ]
   }
 }
